@@ -19,7 +19,7 @@ def random_connection():
 urls_file = open('urls', 'r') # Opens the urls file as read-only
 urls = urls_file.readlines() # Creates an array out of the urls in the file
 while True: # Runs a loop that creates a connection on a random interval
-	interval_time = random.randint(0,30)
+	interval_time = random.randint(lower_limit, upper_limit)
 	random_connection()
 	print(interval_time," seconds")
 	time.sleep(interval_time)
