@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import http.client, random, sys, time
 
 # A connection will be made at random between the following numbers
